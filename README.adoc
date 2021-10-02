@@ -1,4 +1,4 @@
-= Showcase for consumer-driven contracts Quarkus
+= Showcase for consumer-driven contracts based on Quarkus
 
 This project holds a showcase for consumer-driven contracts.
 
