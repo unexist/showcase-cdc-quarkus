@@ -1,0 +1,16 @@
+= Showcase for consumer-driven contracts Quarkus
+
+This project holds a showcase for consumer-driven contracts.
+
+== Frameworks
+
+- https://pact.io[Pact]
+
+=== Instructions
+
+Following make targets exist:
+
+- **pact** - Run the service
+- **pact-publish** - Push pacts to broker
+- **pact-verify** - Verify pacts with broker
+- **docker** - Run docker-compose to bring up database and broker
