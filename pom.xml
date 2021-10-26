@@ -15,7 +15,7 @@
 
     <properties>
         <!-- Pact -->
-        <pact.version>4.2.6</pact.version>
+        <pact.version>4.2.14</pact.version>
     </properties>
 
     <dependencies>
@@ -30,13 +30,11 @@
             <groupId>au.com.dius.pact.consumer</groupId>
             <artifactId>junit5</artifactId>
             <version>${pact.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>au.com.dius.pact.provider</groupId>
             <artifactId>junit5</artifactId>
             <version>${pact.version}</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
