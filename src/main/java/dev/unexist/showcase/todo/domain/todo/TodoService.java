@@ -34,7 +34,6 @@ public class TodoService {
         Todo todo = new Todo(base);
 
         return this.todoRepository.add(todo) ? todo.getId() : -1;
-
     }
 
     /**
